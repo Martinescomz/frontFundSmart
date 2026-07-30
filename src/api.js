@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://container-sixtyfold-deviant.ngrok-free.dev/api',
+  baseURL: 'https://fundssmart.org/api',
   headers: {
         'ngrok-skip-browser-warning': 'true',
         'Accept': 'application/json',
