@@ -114,7 +114,7 @@ export default function NewMovement() {
               >
                 <option value="">Selecione uma categoria...</option>
                 {categories.map(c => (
-                  <option key={c.id} value={c.id}>{c.name} ({c.type === 'R' ? 'Receita' : 'Despesa'})</option>
+                  <option key={c.id} value={c.id}>{c.name} ({c.type === 'Receita' ? 'Receita' : 'Despesa'})</option>
                 ))}
               </select>
             </div>

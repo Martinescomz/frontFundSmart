@@ -135,8 +135,8 @@ export default function Categories() {
                     </td>
                     <td className="px-6 py-4 font-medium text-slate-900">{c.name}</td>
                     <td className="px-6 py-4">
-                      <span className={clsx("px-2.5 py-1 rounded-full text-xs font-medium", c.type === 'R' ? "bg-emerald-100 text-emerald-700" : "bg-rose-100 text-rose-700")}>
-                        {c.type === 'R' ? 'Receita' : 'Despesa'}
+                      <span className={clsx("px-2.5 py-1 rounded-full text-xs font-medium", c.type === 'Receita' ? "bg-emerald-100 text-emerald-700" : "bg-rose-100 text-rose-700")}>
+                        {c.type === 'Receita' ? 'Receita' : 'Despesa'}
                       </span>
                     </td>
                     <td className="px-6 py-4 flex justify-end gap-3">
